@@ -26,11 +26,11 @@ $(function (){
 
 
 
-
+                   if(key < 21){
                     $('tbody').append('<tr></tr>');
    $('tbody').append( '<td>' +  work.data[key].id + '</td> <td>' +  work.data[key].workout_name + '</td> <td>' +  work.data[key].program_id + '</td> <td>' + work.data[key].rounds + '</td> <td>' + work.data[key].sets + '</td><td>' +  work.data[key].timeline + '</td> <td>' +  work.data[key].week + '</td><td>' +  work.data[key].weekday + '</td> <td>' +  work.data[key].work + '</td> <td>'  + '<video width="200" controls>' + '<source src=' + work.data[key].workout_information_video_mp4 + 'width = "200" type="video/mp4">' + '</video>' + '<td>' +"<img src =" + work.data[key].workout_information_video_thumbnail + ' width="150" />'
    + '</td>');
-
+              }
 
 
    
