@@ -1,0 +1,50 @@
+.receipt-form .form-group {
+	margin-bottom: 30px;
+}
+
+.receipt-body {
+	margin: 0 auto;
+    padding: 30px 0;
+    width: 400px;
+}
+
+.receipt-form {
+	background: #f0f4f8;
+}
+
+.receipt-form strong {
+	font-size: 1.5rem;
+	margin-left: 30px;
+}
+
+.receipt-form h2 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.couriers-body {
+	margin: 0 auto;
+    padding: 30px 0;
+    width: 400px;
+}
+
+.couriers-body h1 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+.couriers-body button {
+	border: transparent;
+}
+
+
+.head h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.head .head-title {
+	background-color: #174378;
+}
